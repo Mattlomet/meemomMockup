@@ -128,7 +128,7 @@ class Contact extends Component {
                 <div className="column">
                     <div class="card">
   <div class="card-content">
-    <p class="title">
+    <p class="title has-text-info">
       Wall Township
     </p>
     <p class="subtitle">
@@ -142,14 +142,18 @@ Wall, New Jersey 07719
   <footer class="card-footer">
     <p class="card-footer-item">
       <span>
-          <a href="tel:7323598544">
+          < a className = "has-text-info"
+          href = "tel:7323598544" >
        <i class="fas fa-phone"></i>
           </a>
       </span>
     </p>
     <p class="card-footer-item">
       <span>
-        <a href="http://maps.google.com/?q=3541 1825, NJ-35, Wall Township, NJ 07719" target="_blank" rel="nooppener noreferrer">
+        < a className = "has-text-info"
+        href = "http://maps.google.com/?q=3541 1825, NJ-35, Wall Township, NJ 07719"
+        target = "_blank"
+        rel = "nooppener noreferrer" >
         <i class="fas fa-directions"></i>
 </a>
       </span>
@@ -158,7 +162,7 @@ Wall, New Jersey 07719
 </div>
 <div class="card">
   <div class="card-content">
-    <p class="title">
+    <p class="title has-text-info">
       Middletown
     </p>
     <p class="subtitle">
@@ -171,15 +175,16 @@ Middletown, New Jersey 07748
   </div>
   <footer class="card-footer">
     <p class="card-footer-item">
-      <span>
-       <a href="tel:7328569499">
+      <span >
+       < a className = "has-text-info"
+        href = "tel:7328569499" >
        <i class="fas fa-phone"></i>
           </a>
       </span>
     </p>
     <p class="card-footer-item">
       <span>
-          <a href="http://maps.google.com/?q=1383 Highway 35
+          <a className = "has-text-info" href="http://maps.google.com/?q=1383 Highway 35
 Middletown, New Jersey 07748" target="_blank" rel="nooppener noreferrer">
         <i class="fas fa-directions"></i>
 </a>
