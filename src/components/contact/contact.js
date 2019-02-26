@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './contact.css'
 
 class Contact extends Component {
   constructor(props){
@@ -26,8 +26,7 @@ class Contact extends Component {
                 <h1 className="title">
                     Contact Us!
       </h1>
-                <div className="columns">
-                <div className="column"></div>
+                <div className="columns marginForContact">
                 <div className="column">
                 
                 <div className=" has-text-centered">
@@ -193,7 +192,6 @@ Middletown, New Jersey 07748" target="_blank" rel="nooppener noreferrer">
   </footer>
 </div>
                 </div>
-                    <div className="column"></div>
 
                 </div>
                 

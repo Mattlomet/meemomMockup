@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
-import './specials.css'
 
-class Specials extends Component {
+class CoffeeNav extends Component {
+  constructor() {
+    super();
+    this.state = {
+    }
+  }
   render() {
     return (
-      < div id="specials" className="hero is-large is-info specialsMargin" >
-        <div className="title">
-          Specials
-      </div>
-        <div className="subtitle underlineSubtitle">
-          Breakfast
-      </div>
-        <div className="columns">
+        <div className="container">
+
+      <div className="columns">
           <div className="column">
             <span>
               <div className="has-text-weight-bold">French Toast</div>
@@ -121,9 +120,9 @@ class Specials extends Component {
           </div>
 
       </div>
-      </div>
+        </div>
     );
   }
 }
 
-export default Specials;
+export default CoffeeNav;

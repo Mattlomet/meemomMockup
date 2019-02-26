@@ -10,7 +10,6 @@ class Header extends Component {
     <nav class="navbar">
       <div class="container">
         <div class="navbar-brand">
-          <div className="subtitle">open everyday 7am-3pm</div>
         </div>
         
       </div>
@@ -20,7 +19,8 @@ class Header extends Component {
   <div class="hero-body">
     <div class="container has-text-centered">
               <img src={logoImage} alt="Logo" />
-
+          <div className="subtitle">open everyday 7am-3pm</div>
+      
     </div>
   </div>
 

@@ -1,0 +1,9 @@
+.specialsMargin{
+    margin-left: 4vw;
+    margin-right: 4vw;
+    padding: 1vw;
+}
+.underlineSubtitle{
+    display:inline;
+    text-decoration: underline;
+}
