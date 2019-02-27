@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Sides = () => (
+const Bowls = () => (
  <div className="container">
-        <div className="columns">
+     <div className="columns">
           <div className="column">
             <span>
               <div className="has-text-weight-bold">French Toast</div>
@@ -67,8 +67,10 @@ const Sides = () => (
           </div>
 
         </div>
-        </div>
+
+
+</div>
 
 );
 
-export default Sides;
+export default Bowls;

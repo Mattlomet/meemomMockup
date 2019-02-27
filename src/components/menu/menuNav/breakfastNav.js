@@ -1,11 +1,21 @@
 import React, { Component } from 'react';
+import FrenchToast from './breakfast/frenchtoast'
+import Waffles from './breakfast/waffles'
+import Eggs from './breakfast/eggs'
+import Omelettes from './breakfast/omelettes'
+import Benedict from './breakfast/benedict'
+import Pancakes from './breakfast/pancakes'
+import SnackCabinet from './breakfast/snackcabinet'
+import Sides from './breakfast/sides'
+
+
 
 class BreakfastNav extends Component {
   constructor() {
     super();
     this.state = {
         isDesktop : false,
-        selectedMenu: "French Toast"
+        selectedMenu: <FrenchToast/>
     }
   }
   menuSelect = (event) => {
@@ -17,7 +27,7 @@ class BreakfastNav extends Component {
 
         event.target.className = 'currentInnerNav'
       this.setState({
-        selectedMenu: "French Toast",
+        selectedMenu: <FrenchToast/>,
       })
 
     }else if (event.target.innerText === "Waffles") {
@@ -26,7 +36,7 @@ class BreakfastNav extends Component {
 
         event.target.className = 'currentInnerNav'
       this.setState({
-        selectedMenu: "Waffles",
+        selectedMenu: < Waffles /> ,
       })
     } else if (event.target.innerText === "Eggs"){
         let resetElement = document.querySelector('.currentInnerNav');
@@ -34,7 +44,7 @@ class BreakfastNav extends Component {
 
         event.target.className = 'currentInnerNav'
       this.setState({
-        selectedMenu: "Eggs",
+        selectedMenu: < Eggs /> ,
       })
     } else if (event.target.innerText === "Omelettes") {
       let resetElement = document.querySelector('.currentInnerNav');
@@ -42,7 +52,7 @@ class BreakfastNav extends Component {
 
       event.target.className = 'currentInnerNav'
       this.setState({
-        selectedMenu: "Omelettes",
+        selectedMenu: <Omelettes/>,
       })
     } else if (event.target.innerText === "Benedict") {
       let resetElement = document.querySelector('.currentInnerNav');
@@ -50,7 +60,7 @@ class BreakfastNav extends Component {
 
       event.target.className = 'currentInnerNav'
       this.setState({
-        selectedMenu: "Benedict",
+        selectedMenu: < Benedict /> ,
       })
     } else if (event.target.innerText === "Pancakes") {
       let resetElement = document.querySelector('.currentInnerNav');
@@ -58,7 +68,7 @@ class BreakfastNav extends Component {
 
       event.target.className = 'currentInnerNav'
       this.setState({
-        selectedMenu: "Pancakes",
+        selectedMenu: < Pancakes /> ,
       })
     } else if (event.target.innerText === "Snack Cabinet") {
       let resetElement = document.querySelector('.currentInnerNav');
@@ -66,7 +76,7 @@ class BreakfastNav extends Component {
 
       event.target.className = 'currentInnerNav'
       this.setState({
-        selectedMenu: "Snack Cabinet",
+        selectedMenu: < SnackCabinet /> ,
       })
     } else if (event.target.innerText === "Sides") {
       let resetElement = document.querySelector('.currentInnerNav');
@@ -74,7 +84,7 @@ class BreakfastNav extends Component {
 
       event.target.className = 'currentInnerNav'
       this.setState({
-        selectedMenu: "Sides",
+        selectedMenu: <Sides/>,
       })
     }
   }
