@@ -36,6 +36,46 @@ class BreakfastNav extends Component {
       this.setState({
         selectedMenu: "Eggs",
       })
+    } else if (event.target.innerText === "Omelettes") {
+      let resetElement = document.querySelector('.currentInnerNav');
+      resetElement.classList.remove("currentInnerNav")
+
+      event.target.className = 'currentInnerNav'
+      this.setState({
+        selectedMenu: "Omelettes",
+      })
+    } else if (event.target.innerText === "Benedict") {
+      let resetElement = document.querySelector('.currentInnerNav');
+      resetElement.classList.remove("currentInnerNav")
+
+      event.target.className = 'currentInnerNav'
+      this.setState({
+        selectedMenu: "Benedict",
+      })
+    } else if (event.target.innerText === "Pancakes") {
+      let resetElement = document.querySelector('.currentInnerNav');
+      resetElement.classList.remove("currentInnerNav")
+
+      event.target.className = 'currentInnerNav'
+      this.setState({
+        selectedMenu: "Pancakes",
+      })
+    } else if (event.target.innerText === "Snack Cabinet") {
+      let resetElement = document.querySelector('.currentInnerNav');
+      resetElement.classList.remove("currentInnerNav")
+
+      event.target.className = 'currentInnerNav'
+      this.setState({
+        selectedMenu: "Snack Cabinet",
+      })
+    } else if (event.target.innerText === "Sides") {
+      let resetElement = document.querySelector('.currentInnerNav');
+      resetElement.classList.remove("currentInnerNav")
+
+      event.target.className = 'currentInnerNav'
+      this.setState({
+        selectedMenu: "Sides",
+      })
     }
   }
   menuSelectMobile =  () => {
