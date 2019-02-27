@@ -1,14 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class CoffeeNav extends Component {
-  constructor() {
-    super();
-    this.state = {
-    }
-  }
-  render() {
-    return (
-        <div className="container">
+const CoffeeNav = () => (
+ <div className="container">
 
       <div className="columns">
           <div className="column">
@@ -121,8 +114,7 @@ class CoffeeNav extends Component {
 
       </div>
         </div>
-    );
-  }
-}
+
+);
 
 export default CoffeeNav;

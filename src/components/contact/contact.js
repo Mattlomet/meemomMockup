@@ -30,7 +30,8 @@ class Contact extends Component {
                 <div className="column">
                 
                 <div className=" has-text-centered">
-                    
+                
+                    <div className="subtitle"> drop us a line!</div>
       <div class="field is-horizontal">
   <div class="field-label is-normal">
     <label class="label">From</label>

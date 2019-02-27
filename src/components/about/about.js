@@ -87,11 +87,7 @@ setInterval(() => {
         </div>
         <div className="column">
         
-            <div class="card">
-              <div class="card-content">
       <Cara image={this.state.image}/>
-              </div>
-            </div>
             {/* <div class="card">
               <div class="card-content">
                 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"

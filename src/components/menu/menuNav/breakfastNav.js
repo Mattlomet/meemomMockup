@@ -4,27 +4,42 @@ class BreakfastNav extends Component {
   constructor() {
     super();
     this.state = {
-        isDesktop : false
+        isDesktop : false,
+        selectedMenu: "French Toast"
     }
   }
   menuSelect = (event) => {
       
 
-      console.log(document.getElementById("item1").value)
-    // if (event.target.innerText === "Breakfast"){
-    //   this.setState({
-    //     menuNav: <BreakfastNav/>,
-    //   })
+    if (event.target.innerText === "French Toast"){
+        let resetElement = document.querySelector('.currentInnerNav');
+        resetElement.classList.remove("currentInnerNav")
 
-    // }else if (event.target.innerText === "Lunch") {
-    //   this.setState({
-    //     menuNav: <LunchNav/>,
-    //   })
-    // } else if (event.target.innerText === "Coffee"){
-    //   this.setState({
-    //     menuNav: <CoffeeNav/>,
-    //   })
-    // }
+        event.target.className = 'currentInnerNav'
+      this.setState({
+        selectedMenu: "French Toast",
+      })
+
+    }else if (event.target.innerText === "Waffles") {
+        let resetElement = document.querySelector('.currentInnerNav');
+        resetElement.classList.remove("currentInnerNav")
+
+        event.target.className = 'currentInnerNav'
+      this.setState({
+        selectedMenu: "Waffles",
+      })
+    } else if (event.target.innerText === "Eggs"){
+        let resetElement = document.querySelector('.currentInnerNav');
+        resetElement.classList.remove("currentInnerNav")
+
+        event.target.className = 'currentInnerNav'
+      this.setState({
+        selectedMenu: "Eggs",
+      })
+    }
+  }
+  menuSelectMobile =  () => {
+      console.log(document.getElementById("item1").value)
   }
   componentDidMount() {
       window.addEventListener("resize", this.resize.bind(this));
@@ -39,20 +54,28 @@ class BreakfastNav extends Component {
   render() {
       const isDesktop = this.state.isDesktop;
     return (
+        <div>
+
         <nav class="tabs is-boxed is-fullwidth is-info">
             {
                 (isDesktop)
-                ? <select id="item1" onClick={this.menuSelect} className="dropdown">
-                    <option value="volvo" >Volvo</option>
-                    <option value="saab">Saab</option>
-                    <option value="opel">Opel</option>
-                    <option value="audi">Audi</option>
+                ? <div className="container tag is-large has-background-info">
+                
+                <select id="item1" onClick={this.menuSelectMobile} className="dropdown">
+                    <option value="French Toast" >French Toast</option>
+                    <option value="Waffles">Waffles</option>
+                    <option value="Eggs">Eggs</option>
+                    <option value="Omelettes">Omelettes</option>
+                    <option value="Benedict" >Benedict</option>
+                    <option value="Pancakes">Pancakes</option>
+                    <option value="Snack Cabinet">Snack Cabinet</option>
+                    <option value="Sides">Sides</option>
                 </select>
-  
+                </div>
                 :<div class="container">
               <ul>
                 <li>
-                  <a onClick={this.menuSelect}>French Toast</a>
+                  <a className="currentInnerNav" onClick={this.menuSelect}>French Toast</a>
                 </li>
                 <li>
                   <a onClick={this.menuSelect}>Waffles</a>
@@ -80,6 +103,8 @@ class BreakfastNav extends Component {
             }
       
           </nav>
+          {this.state.selectedMenu}
+            </div>
     );
   }
 }

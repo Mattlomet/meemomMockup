@@ -5,7 +5,7 @@ class Specials extends Component {
   render() {
     return (
       < div id="specials" className="hero is-large is-info specialsMargin" >
-        <div className="title">
+        <div className="title titleMargin">
           Specials
       </div>
         <div className="subtitle underlineSubtitle">

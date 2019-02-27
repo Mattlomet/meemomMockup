@@ -1,3 +1,13 @@
 .current{
     background:#209cee;
 }
+.currentInnerNav {
+    background: #209cee;
+}
+.menuUpperMargin{
+    padding: 1vw;
+    margin: 2vw;
+    margin-top: 4vw;
+    margin-bottom: 10vw;
+    border: 2px solid #209cee;
+}
