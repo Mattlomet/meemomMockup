@@ -88,8 +88,50 @@ class BreakfastNav extends Component {
       })
     }
   }
-  menuSelectMobile =  () => {
-      console.log(document.getElementById("item1").value)
+  menuSelectMobile =  (event) => {
+    event.preventDefault();
+    
+if (document.getElementById("item1").value === "French Toast"){
+
+      this.setState({
+        selectedMenu: <FrenchToast/>,
+      })
+
+    }else if (document.getElementById("item1").value === "Waffles") {
+       
+      this.setState({
+        selectedMenu: < Waffles /> ,
+      })
+    } else if (document.getElementById("item1").value === "Eggs"){
+      this.setState({
+        selectedMenu: < Eggs /> ,
+      })
+    } else if (document.getElementById("item1").value === "Omelettes") {
+
+      this.setState({
+        selectedMenu: <Omelettes/>,
+      })
+    } else if (document.getElementById("item1").value === "Benedict") {
+
+      this.setState({
+        selectedMenu: < Benedict /> ,
+      })
+    } else if (document.getElementById("item1").value === "Pancakes") {
+
+      this.setState({
+        selectedMenu: < Pancakes /> ,
+      })
+    } else if (document.getElementById("item1").value === "Snack Cabinet") {
+
+      this.setState({
+        selectedMenu: < SnackCabinet /> ,
+      })
+    } else if (document.getElementById("item1").value === "Sides") {
+
+      this.setState({
+        selectedMenu: <Sides/>,
+      })
+    }
   }
   componentDidMount() {
       window.addEventListener("resize", this.resize.bind(this));
