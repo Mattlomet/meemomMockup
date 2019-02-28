@@ -89,7 +89,6 @@ class BreakfastNav extends Component {
     }
   }
   menuSelectMobile =  (event) => {
-    event.preventDefault();
     
 if (document.getElementById("item1").value === "French Toast"){
 
