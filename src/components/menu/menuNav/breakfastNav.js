@@ -6,7 +6,7 @@ import Omelettes from './breakfast/omelettes'
 import Benedict from './breakfast/benedict'
 import Pancakes from './breakfast/pancakes'
 import SnackCabinet from './breakfast/snackcabinet'
-import Sides from './breakfast/sides'
+import Sides from './breakfast/bfsides'
 
 
 

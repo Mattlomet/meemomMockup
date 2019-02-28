@@ -1,11 +1,20 @@
 import React, { Component } from 'react';
+import Bowls from './lunch/bowls';
+import Salads from './lunch/salads';
+import Challah from './lunch/challahsand';
+import Paninis from './lunch/paninis';
+import Wraps from './lunch/wraps';
+import Soups from './lunch/soups';
+import LunchSides from './lunch/lunchsides';
+
+
 
 class LunchNav extends Component {
   constructor() {
     super();
     this.state = {
         isDesktop : false,
-        selectedMenu: "Bowls"
+        selectedMenu: <Bowls/>
     }
   }
   menuSelect = (event) => {
@@ -17,7 +26,7 @@ class LunchNav extends Component {
 
         event.target.className = 'currentInnerNav'
       this.setState({
-        selectedMenu: "Bowls",
+        selectedMenu: <Bowls/>,
       })
 
     }else if (event.target.innerText === "Salads") {
@@ -26,7 +35,7 @@ class LunchNav extends Component {
 
         event.target.className = 'currentInnerNav'
       this.setState({
-        selectedMenu: "Salads",
+        selectedMenu: <Salads/>,
       })
     } else if (event.target.innerText === "Challah Sandwiches"){
         let resetElement = document.querySelector('.currentInnerNav');
@@ -34,7 +43,7 @@ class LunchNav extends Component {
 
         event.target.className = 'currentInnerNav'
       this.setState({
-        selectedMenu: "Challah Sandwiches",
+        selectedMenu: <Challah/>,
       })
     } else if (event.target.innerText === "Paninis") {
       let resetElement = document.querySelector('.currentInnerNav');
@@ -42,7 +51,7 @@ class LunchNav extends Component {
 
       event.target.className = 'currentInnerNav'
       this.setState({
-        selectedMenu: "Paninis",
+        selectedMenu: <Paninis/>,
       })
     } else if (event.target.innerText === "Wraps") {
       let resetElement = document.querySelector('.currentInnerNav');
@@ -50,7 +59,7 @@ class LunchNav extends Component {
 
       event.target.className = 'currentInnerNav'
       this.setState({
-        selectedMenu: "Wraps",
+        selectedMenu: <Wraps/>,
       })
     } else if (event.target.innerText === "Soups") {
       let resetElement = document.querySelector('.currentInnerNav');
@@ -58,7 +67,7 @@ class LunchNav extends Component {
 
       event.target.className = 'currentInnerNav'
       this.setState({
-        selectedMenu: "Soups",
+        selectedMenu: <Soups/>,
       })
     } else if (event.target.innerText === "Sides") {
       let resetElement = document.querySelector('.currentInnerNav');
@@ -66,12 +75,49 @@ class LunchNav extends Component {
 
       event.target.className = 'currentInnerNav'
       this.setState({
-        selectedMenu: "Sides",
+        selectedMenu: <LunchSides/>,
       })
     }
   }
   menuSelectMobile =  () => {
       console.log(document.getElementById("item1").value)
+      
+    if (document.getElementById("item1").value === "Bowls"){
+      this.setState({
+        selectedMenu: <Bowls/>,
+      })
+
+    }else if (document.getElementById("item1").value === "Salads") {
+      
+      this.setState({
+        selectedMenu: <Salads/>,
+      })
+    } else if (document.getElementById("item1").value === "Challah Sandwiches"){
+    
+      this.setState({
+        selectedMenu: <Challah/>,
+      })
+    } else if (document.getElementById("item1").value === "Paninis") {
+   
+      this.setState({
+        selectedMenu: <Paninis/>,
+      })
+    } else if (document.getElementById("item1").value === "Wraps") {
+   
+      this.setState({
+        selectedMenu: <Wraps/>,
+      })
+    } else if (document.getElementById("item1").value === "Soups") {
+    
+      this.setState({
+        selectedMenu: <Soups/>,
+      })
+    } else if (document.getElementById("item1").value === "Sides") {
+   
+      this.setState({
+        selectedMenu: <LunchSides/>,
+      })
+    }
   }
   componentDidMount() {
       window.addEventListener("resize", this.resize.bind(this));
@@ -85,14 +131,13 @@ class LunchNav extends Component {
   }
   render() {
       const isDesktop = this.state.isDesktop;
-      const mobileFullScreenToggle = (isDesktop) ? '' : ''
     return (
         <div>
 
         <nav class="tabs is-boxed is-fullwidth is-info">
             {
                 (isDesktop)
-                ? <div className="container tag is-large has-background-info">
+                ? <div className="container">
                 
                 <select id="item1" onChange={this.menuSelectMobile} className="is-size-5">
                     <option value="Bowls" >Bowls</option>
@@ -101,7 +146,6 @@ class LunchNav extends Component {
                     <option value="Paninis">Paninis</option>
                     <option value="Wraps" >Wraps</option>
                     <option value="Soups">Soups</option>
-                    <option value="Snack Cabinet">Snack Cabinet</option>
                     <option value="Sides">Sides</option>
                 </select>
                 </div>

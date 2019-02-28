@@ -144,7 +144,7 @@ Wall, New Jersey 07719
       <span>
           < a className = "has-text-info"
           href = "tel:7323598544" >
-       <i class="fas fa-phone"></i>
+       <i class="fas fa-phone fa-2x"></i>
           </a>
       </span>
     </p>
@@ -154,7 +154,7 @@ Wall, New Jersey 07719
         href = "http://maps.google.com/?q=3541 1825, NJ-35, Wall Township, NJ 07719"
         target = "_blank"
         rel = "nooppener noreferrer" >
-        <i class="fas fa-directions"></i>
+        <i class="fas fa-directions fa-3x"></i>
 </a>
       </span>
     </p>
@@ -178,7 +178,7 @@ Middletown, New Jersey 07748
       <span >
        < a className = "has-text-info"
         href = "tel:7328569499" >
-       <i class="fas fa-phone"></i>
+       <i class="fas fa-phone fa-2x"></i>
           </a>
       </span>
     </p>
@@ -186,7 +186,7 @@ Middletown, New Jersey 07748
       <span>
           <a className = "has-text-info" href="http://maps.google.com/?q=1383 Highway 35
 Middletown, New Jersey 07748" target="_blank" rel="nooppener noreferrer">
-        <i class="fas fa-directions"></i>
+        <i class="fas fa-directions fa-3x"></i>
 </a>
       </span>
     </p>
