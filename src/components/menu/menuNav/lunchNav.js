@@ -94,7 +94,7 @@ class LunchNav extends Component {
                 (isDesktop)
                 ? <div className="container tag is-large has-background-info">
                 
-                <select id="item1" onClick={this.menuSelectMobile} className="dropdown">
+                <select id="item1" onChange={this.menuSelectMobile} className="is-size-5">
                     <option value="Bowls" >Bowls</option>
                     <option value="Salads">Salads</option>
                     <option value="Challah Sandwiches">Challah Sandwiches</option>
