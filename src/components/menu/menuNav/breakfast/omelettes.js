@@ -5,49 +5,58 @@ const Omelettes = () => (
      <div className="columns">
           <div className="column">
             <span>
-              <div className="has-text-weight-semibold">GRILLED CHEESE SUPREME || $8.50</div>
+              < div className = "has-text-weight-semibold" > OH SO CHEESY
+ || $8</div>
               <div className="has-text-weight-light">
-                a twist on grandma’ s favorite!thick cut bacon, tomato & american
+                american & cheddar jack cheese
+
         </div>
             </span>
             <span>
-              <div className="has-text-weight-semibold">GRILLED CHEESE SUPREME || $8.50</div>
+              <div className="has-text-weight-semibold">VEGGIE || $9</div>
               <div className="has-text-weight-light">
-                a twist on grandma’ s favorite!thick cut bacon, tomato & american
-        </div>
-            </span>
-          </div>
-          <div className="column">
-            <span>
-              <div className="has-text-weight-semibold">COUNTRY LUNCH || $8</div>
-              <div className="has-text-weight-light">
-                traditional grilled cheese served on thick cut challah bread with choice of soup
-        </div>
-            </span>
-            <span>
-              <div className="has-text-weight-semibold">A.B.C. GRILLED CHEESE || $9.50</div>
-              <div className="has-text-weight-light">
-                avocado spread, thick cut bacon, marinated tomatoes & cheddar jack served on sourdough
-        </div>
-            </span>
-            <span>
-              <div className="has-text-weight-semibold">GRILLED CHEESE SUPREME || $8.50</div>
-              <div className="has-text-weight-light">
-                a twist on grandma’ s favorite!thick cut bacon, tomato & american
+                peppers, tomato, onions & mushrooms served with a side of homemade salsa
+
         </div>
             </span>
           </div>
           <div className="column">
             <span>
-              <div className="has-text-weight-semibold">BACON AVOCADO TUNA MELT || $11</div>
+              < div className = "has-text-weight-semibold" > AVOCADO EGG WHITE
+ || $9</div>
               <div className="has-text-weight-light">
-                house-made tuna salad served over a piece of toasted sour dough, marinated tomatoes, thick cut bacon & avocado. topped with melted cheddar & onion crisps
+                tomato, avocado & fresh mozzarella served with a fruit cup & choice of toast
+
         </div>
             </span>
             <span>
-              <div className="has-text-weight-semibold">GRILLED CHEESE SUPREME || $8.50</div>
+              < div className = "has-text-weight-semibold" > WESTERN
+ || $9</div>
               <div className="has-text-weight-light">
-                a twist on grandma’ s favorite!thick cut bacon, tomato & american
+                ham, peppers, onions & melted cheddar jack cheese
+
+        </div>
+            </span>
+            <span>
+              <div className="has-text-weight-semibold">GREEK || $9</div>
+              <div className="has-text-weight-light">
+                spinach, tomatoes & melted feta
+        </div>
+            </span>
+          </div>
+          <div className="column">
+            <span>
+              <div className="has-text-weight-semibold">JERSEY || $9</div>
+              <div className="has-text-weight-light">
+                pork roll, tomato & melted american
+
+        </div>
+            </span>
+            <span>
+              <div className="has-text-weight-semibold">HAVANA|| $9</div>
+              <div className="has-text-weight-light">
+                chorizo, jalapenos & melted cheddar jack topped with pico de gallo & served with homemade salsa, spuds & choice of toast
+
         </div>
             </span>
           </div>

@@ -5,17 +5,19 @@ const Waffles = () => (
      <div className="columns">
           <div className="column">
             <span>
-              <div className="has-text-weight-semibold">GRILLED CHEESE SUPREME || $8.50</div>
+              < div className = "has-text-weight-semibold" > THE BELGIAN || $7</div>
               <div className="has-text-weight-light">
-                a twist on grandma’ s favorite!thick cut bacon, tomato & american
+                meemom 's belgian waffles lightly garnished fresh berries & powdered sugar
+
         </div>
             </span>
           </div>
           <div className="column">
             <span>
-              <div className="has-text-weight-semibold">COUNTRY LUNCH || $8</div>
+              <div className="has-text-weight-semibold">WAFFLE SUNDAE
+ || $10</div>
               <div className="has-text-weight-light">
-                traditional grilled cheese served on thick cut challah bread with choice of soup
+                topped with french vanilla & chocolate mascarpone, brownies, edible cookie dough, whipped cream, chocolate chips, powdered sugar & drizzled with chocolate sauce
         </div>
             </span>
           </div>

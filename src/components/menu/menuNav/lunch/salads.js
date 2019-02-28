@@ -5,45 +5,53 @@ const Salads = () => (
      <div className="columns">
           <div className="column">
             <span>
-              <div className="has-text-weight-semibold">GRILLED CHEESE SUPREME || $8.50</div>
+              <div className="has-text-weight-semibold">APPLE & BRIE || $10</div>
               <div className="has-text-weight-light">
-                a twist on grandma’ s favorite!thick cut bacon, tomato & american
+                field greens, granny smith apples, pecans & brie.served with apple cider vinaigrette
         </div>
             </span>
             <span>
-              <div className="has-text-weight-semibold">GRILLED CHEESE SUPREME || $8.50</div>
+              <div className="has-text-weight-semibold">MOM'S SALAD
+ || $10.50</div>
               <div className="has-text-weight-light">
-                a twist on grandma’ s favorite!thick cut bacon, tomato & american
+                field greens, fresh strawberries, granny smith apples, oranges, pecans, feta cheese & blueberries.served with light apple cider vinaigrette
         </div>
             </span>
           </div>
           <div className="column">
             <span>
-              <div className="has-text-weight-semibold">COUNTRY LUNCH || $8</div>
+              <div className="has-text-weight-semibold">BISTRO SALAD
+ || $9.50</div>
               <div className="has-text-weight-light">
-                traditional grilled cheese served on thick cut challah bread with choice of soup
+                field greens, bacon, sliced red onions, tomatoes, cucumbers & feta.served with balsamic vinaigrette
         </div>
             </span>
             <span>
-              <div className="has-text-weight-semibold">A.B.C. GRILLED CHEESE || $9.50</div>
+              <div className="has-text-weight-semibold">CHIPOTLE MAPLE BLT
+ || $9.50</div>
               <div className="has-text-weight-light">
-                avocado spread, thick cut bacon, marinated tomatoes & cheddar jack served on sourdough
+                chopped romain, diced tomatoes, candied maple bacon.served with chipotle ranch
         </div>
             </span>
+            
           </div>
           <div className="column">
             <span>
-              <div className="has-text-weight-semibold">BACON AVOCADO TUNA MELT || $11</div>
+              <div className="has-text-weight-semibold">AVO-COBB-O
+ || $10</div>
               <div className="has-text-weight-light">
-                house-made tuna salad served over a piece of toasted sour dough, marinated tomatoes, thick cut bacon & avocado. topped with melted cheddar & onion crisps
+                field greens, ham, tomatoes, bacon, avocado, hard boiled egg & cheddar jack cheese.served with honey mustard
         </div>
             </span>
             <span>
-              <div className="has-text-weight-semibold">GRILLED CHEESE SUPREME || $8.50</div>
+              <div className="has-text-weight-semibold">Addons</div>
               <div className="has-text-weight-light">
-                a twist on grandma’ s favorite!thick cut bacon, tomato & american
+                Chicken || $3
+                <br></br>
+                Shrimp || $5
         </div>
             </span>
+            
           </div>
 
         </div>

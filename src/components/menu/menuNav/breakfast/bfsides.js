@@ -5,39 +5,39 @@ const Sides = () => (
      <div className="columns">
           <div className="column">
             <span>
-              <div className="has-text-weight-semibold">GRILLED CHEESE SUPREME || $8.50</div>
+              <div className="has-text-weight-semibold">Spuds</div>
               
             </span>
             <span>
-              <div className="has-text-weight-semibold">GRILLED CHEESE SUPREME || $8.50</div>
+              <div className="has-text-weight-semibold">Pork Roll</div>
               
             </span>
             <span>
-              <div className="has-text-weight-semibold">GRILLED CHEESE SUPREME || $8.50</div>
+              <div className="has-text-weight-semibold">Bacon</div>
              
             </span>
           </div>
           <div className="column">
             <span>
-              <div className="has-text-weight-semibold">COUNTRY LUNCH || $8</div>
+              <div className="has-text-weight-semibold">Turkey Bacon</div>
               
             </span>
             <span>
-              <div className="has-text-weight-semibold">A.B.C. GRILLED CHEESE || $9.50</div>
+              <div className="has-text-weight-semibold">Ham</div>
             
             </span>
           </div>
           <div className="column">
             <span>
-              <div className="has-text-weight-semibold">BACON AVOCADO TUNA MELT || $11</div>
+              <div className="has-text-weight-semibold">Sausage Links</div>
             
             </span>
             <span>
-              <div className="has-text-weight-semibold">GRILLED CHEESE SUPREME || $8.50</div>
+              <div className="has-text-weight-semibold">Fresh Fruit</div>
              
             </span>
             <span>
-              <div className="has-text-weight-semibold">GRILLED CHEESE SUPREME || $8.50</div>
+              <div className="has-text-weight-semibold">Toast</div>
               
             </span>
           </div>

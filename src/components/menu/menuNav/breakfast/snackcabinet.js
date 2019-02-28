@@ -5,45 +5,56 @@ const SnackCabinet = () => (
      <div className="columns">
           <div className="column">
             <span>
-              <div className="has-text-weight-semibold">GRILLED CHEESE SUPREME || $8.50</div>
+              <div className="has-text-weight-semibold">GRANDMA'S OATMEAL
+ || $3.50/$5</div>
               <div className="has-text-weight-light">
-                a twist on grandma’ s favorite!thick cut bacon, tomato & american
+                served with raisins & brown sugar
+                <br></br>
+                add fruit
+                for an additional $ .75 each
         </div>
             </span>
             <span>
-              <div className="has-text-weight-semibold">GRILLED CHEESE SUPREME || $8.50</div>
+              < div className = "has-text-weight-semibold" > LOADED HASH
+ || $6</div>
               <div className="has-text-weight-light">
-                a twist on grandma’ s favorite!thick cut bacon, tomato & american
+                meemom’ s house - made pork roll hash, cheddar jack cheese, jalapeños & bacon.topped with sour cream
+
         </div>
             </span>
 
           </div>
           <div className="column">
             <span>
-              <div className="has-text-weight-semibold">COUNTRY LUNCH || $8</div>
+              <div className="has-text-weight-semibold">FRUITINI || $5</div>
               <div className="has-text-weight-light">
-                traditional grilled cheese served on thick cut challah bread with choice of soup
+                fresh blueberries, strawberries, pineapple & bananas
         </div>
             </span>
             <span>
-              <div className="has-text-weight-semibold">A.B.C. GRILLED CHEESE || $9.50</div>
+              <div className="has-text-weight-semibold">BAGEL & LOX
+ || $12</div>
               <div className="has-text-weight-light">
-                avocado spread, thick cut bacon, marinated tomatoes & cheddar jack served on sourdough
+                sliced tomato, smoked salmon, cucumbers, sliced red onions.served with a toasted bagel & cream cheese
+
         </div>
             </span>
             
           </div>
           <div className="column">
             <span>
-              <div className="has-text-weight-semibold">BACON AVOCADO TUNA MELT || $11</div>
+              < div className = "has-text-weight-semibold" > PORK ROLL HASH
+ || $3.50</div>
               <div className="has-text-weight-light">
-                house-made tuna salad served over a piece of toasted sour dough, marinated tomatoes, thick cut bacon & avocado. topped with melted cheddar & onion crisps
+                a jersey favorite! homemade hash with loads of pork roll
+
         </div>
             </span>
             <span>
-              <div className="has-text-weight-semibold">GRILLED CHEESE SUPREME || $8.50</div>
+              < div className = "has-text-weight-semibold" > VEGGIE HASH
+ || $3.50</div>
               <div className="has-text-weight-light">
-                a twist on grandma’ s favorite!thick cut bacon, tomato & american
+                chickpea, kale & onions
         </div>
             </span>
             

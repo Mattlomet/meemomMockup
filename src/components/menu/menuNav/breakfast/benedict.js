@@ -6,9 +6,9 @@ const Benedict = () => (
          
           <div className="column">
             <span>
-              <div className="has-text-weight-semibold">COUNTRY LUNCH || $8</div>
+              <div className="has-text-weight-semibold">BISCUIT || $10</div>
               <div className="has-text-weight-light">
-                traditional grilled cheese served on thick cut challah bread with choice of soup
+                canadian bacon & two poached eggs served over a homemade garlic cheddar biscuits with hollandaise sauce
         </div>
             </span>
 
