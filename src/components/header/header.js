@@ -2,10 +2,31 @@ import React, { Component } from 'react';
 import logoImage from '../../assets/meemomslogo.png'
 import './header.css'
 class Header extends Component {
-  render() {
+  constructor() {
+    super();
+    this.state = {
+        isDesktop : false,
+    }
+  }
+  menuSelectMobile = () => {
+    console.log(document.getElementById("item1").value)
+  }
+  componentDidMount() {
+    window.addEventListener("resize", this.resize.bind(this));
+    this.resize();
+  }
+
+  resize() {
+    this.setState({
+      isDesktop: window.innerWidth <= 760
+    });
+  }
+    render() {
+    const isDesktop = this.state.isDesktop;
+    const mobileFullScreenToggle = (isDesktop) ? 'hero backgroundImage is-fullheight-with-navbar' : 'hero backgroundImage is-fullheight'
     return (
       <div>
-        <section class="hero backgroundImage is-fullheight">
+        <section class={mobileFullScreenToggle}>
   <div class="hero-head">
     <nav class="navbar">
       <div class="container">

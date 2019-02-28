@@ -85,6 +85,7 @@ class LunchNav extends Component {
   }
   render() {
       const isDesktop = this.state.isDesktop;
+      const mobileFullScreenToggle = (isDesktop) ? '' : ''
     return (
         <div>
 

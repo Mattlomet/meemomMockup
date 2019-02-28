@@ -25,10 +25,13 @@ class About extends Component {
     this.state = {
       currentValue: 2,
       image: portArray[1].image,
+      isDesktop: false,
     }
   }
   componentDidMount(){
     this.callTimeout();
+    window.addEventListener("resize", this.resize.bind(this));
+    this.resize();
     
   }
   callTimeout = () =>{
@@ -39,12 +42,19 @@ setInterval(() => {
   console.log(Math.floor(Math.random() * Math.floor(3)))
 }, 10000);
   }
+   resize() {
+     this.setState({
+       isDesktop: window.innerWidth <= 760
+     });
+   }
  
   
   render() {
+    const isDesktop = this.state.isDesktop;
+    const mobileFullScreenToggle = (isDesktop) ? 'hero is-fullheight' : 'hero is-large'
     return (
       <div id="about" className="aboutMargin">
-      <section className="hero is-large">
+      <section className={mobileFullScreenToggle}>
       
         <div className="columns">
           <div className="column">
