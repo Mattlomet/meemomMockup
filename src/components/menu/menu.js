@@ -45,7 +45,7 @@ class Menu extends Component {
   render() {
     return (
       < div id = "menu"
-      className = " hero is-fullheight has-text-info menuUpperMargin" >
+      className = " hero has-text-info menuUpperMargin" >
       <div>
 
       <div className="title has-text-info">

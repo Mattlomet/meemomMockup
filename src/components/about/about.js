@@ -73,24 +73,50 @@ setInterval(() => {
                     {
                       (isDesktop)
                       ?<div className="columns">
+                      < a target="_blank" rel="noopener noreferrer" href = "https://www.facebook.com/MeemomsWall/" >
+                      
                         <i class="marginIcon fab fa-facebook fa-3x"></i>
-
+                      </a>
+                       < a target = "_blank"
+                       rel = "noopener noreferrer"
+                       href = "https://www.instagram.com/meemoms/" >
                           <i class="marginIcon fab fa-instagram fa-3x"></i>
+                      
+                      </a>
+                      < a target = "_blank"
+                      rel = "noopener noreferrer"
+                      href = "https://www.yelp.com/biz/meemoms-wall-township-2" >
+
                         <i class="marginIcon fab fa-yelp fa-3x"></i>
+                      </a>
                         
                       </div>
                       :<div className="columns">
                         <div className="column">
+                         < a target = "_blank"
+                         rel = "noopener noreferrer"
+                         href = "https://www.facebook.com/MeemomsWall/" >
+                      
                         <i class="fab fa-facebook fa-3x"></i>
+                      </a>
 
                       </div>
                       <div className="column">
+                       < a target = "_blank"
+                       rel = "noopener noreferrer"
+                       href = "https://www.instagram.com/meemoms/" >
+                      
                         <i class="fab fa-instagram fa-3x"></i>
+                      </a>
 
                       </div>
                       <div className="column">
+                       < a target = "_blank"
+                       rel = "noopener noreferrer"
+                       href = "https://www.yelp.com/biz/meemoms-wall-township-2" >
+                      
                         <i class="fab fa-yelp fa-3x"></i>
-
+                      </a>
                       </div>
                       </div>
                     }
