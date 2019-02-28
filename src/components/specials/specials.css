@@ -10,3 +10,6 @@
 .titleMargin{
     margin-bottom: 1vw;
 }
+.currentInnerNavSpecials{
+    border: 4px solid white !important;
+}

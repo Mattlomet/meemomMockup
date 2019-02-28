@@ -6,24 +6,15 @@ const CoffeeNav = () => (
       <div className="columns">
           <div className="column">
             <span>
-              <div className="has-text-weight-bold">French Toast</div>
-              <div className="has-text-weight-semibold">DEATH BY CHOCOLATE || $10</div>
-              <div className="has-text-weight-light">
-                topped with chocolate mascarpone, chocolate chips, powdered sugar & drizzled with chocolate sauce
-        </div>
+              <div className="has-text-weight-bold">Coffee || $2</div>
             </span>
             <span>
-              <div className="has-text-weight-bold">French Toast</div>
-              <div className="has-text-weight-semibold">COOKIE BUTTER CUPS || $10</div>
-              <div className="has-text-weight-light">
-                stuffed with cookie butter. topped with crumbled reeses' peanut butter cups, powdered sugar & drizzled with vanilla sauce
-        </div>
+              <div className="has-text-weight-semibold">Cappuccino || $3.50</div>
             </span>
             <span>
-              <div className="has-text-weight-bold">French Toast</div>
-              <div className="has-text-weight-semibold">TRUFFLE SHUFFLE || $10</div>
+              <div className="has-text-weight-semibold">Red Eye || $2</div>
               <div className="has-text-weight-light">
-                two pieces coated in grahaham cracker & stuffed with cookie butter. topped with  white chocolate chips, powdered sugar & drizzled with vanilla sauce
+                coffee and espresso
         </div>
             </span>
           </div>

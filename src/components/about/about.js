@@ -70,27 +70,37 @@ setInterval(() => {
 
                   Meemom was hands down the sweetest woman anyone could ever know. From close relatives to relative strangers, everyone called her “Mom”. She just had a way about her that made people feel at home. Whether it was with her infectious smile, her warm embrace, or her unbeatable cooking, Meemom’s biggest joy in life was bringing joy to others. We can only hope that the home cooking at Meemom’s Kitchen, created from recipes passed down from Meemom herself, can continue to pull people together and bring smiles to their faces.
                 </div>
+                    <div className="columns">
+                    {
+                      (isDesktop)
+                      ?<div>
+                        <i class="marginIcon fab fa-facebook fa-3x"></i>
+
+                          <i class="marginIcon fab fa-instagram fa-3x"></i>
+                        <i class="marginIcon fab fa-yelp fa-3x"></i>
+                        
+                      </div>
+                      :<div>
+                        <div className="column">
+                        <i class="fab fa-facebook fa-3x"></i>
+
+                      </div>
+                      <div className="column">
+                        <i class="fab fa-instagram fa-3x"></i>
+
+                      </div>
+                      <div className="column">
+                        <i class="fab fa-yelp fa-3x"></i>
+
+                      </div>
+                      </div>
+                    }
+                      
+                    </div>
         </article>
       </div>
                 
-             {/* <div class="card">
-             <div className="title">Find Us On</div>
-              <div class="card-content">
-              <div className="columns">
-              <div className="column">
-                  <i class="fab fa-facebook"></i>
-              </div>
-              <div className="column">
-                      <i class="fab fa-instagram"></i>
-
-              </div>
-                    <div className="column">
-                      <i class="fab fa-yelp"></i>
-
-                    </div>
-              </div>
-              </div>
-            </div>   */}
+             
           
         
         
