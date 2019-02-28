@@ -150,9 +150,9 @@ if (document.getElementById("item1").value === "French Toast"){
         <nav class="tabs is-boxed is-fullwidth is-info">
             {
                 (isDesktop)
-                ? <div className="container  dropdown">
+                ? <div className="container">
                 
-                <select id="item1" onChange={this.menuSelectMobile} >
+                <select id="item1" className="is-size-5" onChange={this.menuSelectMobile} >
                     <option value="French Toast" >French Toast</option>
                     <option value="Waffles">Waffles</option>
                     <option value="Eggs">Eggs</option>
