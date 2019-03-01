@@ -46,7 +46,7 @@ class Contact extends Component {
       </p>
     </div>
     <div class="field">
-      <p class="control is-expanded has-icons-left has-icons-right">
+      <p class="control is-expanded has-icons-left">
         < input class = "input"
         type = "email"
         placeholder = "Email@email.com"
@@ -58,9 +58,7 @@ class Contact extends Component {
         <span class="icon is-small is-left">
           <i class="fas fa-envelope"></i>
         </span>
-        <span class="icon is-small is-right">
-          <i class="fas fa-check"></i>
-        </span>
+        
       </p>
     </div>
   </div>
@@ -79,7 +77,7 @@ class Contact extends Component {
       <div class="control">
         < input class = "input"
         type = "text"
-        placeholder = "e.g. Partnership opportunity"
+        placeholder = "e.g. Party Reservation"
         name = "subject"
         onChange = {
           this.handleInput
@@ -98,7 +96,7 @@ class Contact extends Component {
     <div class="field">
       <div class="control">
         < textarea class = "textarea"
-        placeholder = ""
+        placeholder = "food allergies, special requests etc..."
         name = "body"
         onChange = {
           this.handleInput
